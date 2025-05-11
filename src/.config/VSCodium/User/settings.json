@@ -1,0 +1,18 @@
+{
+  "editor.fontFamily": "AverageMono",
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.fontWeight": "600",
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+
+  "window.menuBarVisibility": "toggle",
+  "window.controlsStyle": "hidden",
+  "window.dialogStyle": "native",
+  "window.commandCenter": false,
+  "window.title": " ",
+
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": false,
+  "explorer.confirmDelete": false,
+}

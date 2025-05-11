@@ -1,2 +1,5 @@
-# dotfiles
-Xubuntu Dotfiles Like a Window Manager.
+### Xubuntu Minimal Dotfiles.
+
+<img src="docs/preview.png"
+     max-width="1366px"
+     max-height="768px">

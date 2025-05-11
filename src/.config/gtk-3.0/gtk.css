@@ -1,0 +1,39 @@
+.xfce4-panel {
+  background-color: #111111;
+}
+
+/* Application Buttons Customization */
+.xfce4-panel .tasklist {
+  -XfceTasklist-min-button-length: 90;
+  -XfceTasklist-max-button-length: 90;
+
+  -XfceTasklist-ellipsize-mode: end;
+  -XfceTasklist-minimized-icon-lucency: 0; 
+}
+.xfce4-panel .tasklist button {
+  font-family: "AverageMono";
+  font-size: 14px;
+  background-color: transparent;
+}
+.xfce4-panel .tasklist label {
+  padding-left: 10px;
+}
+
+/* Unfocused Workspace Buttons */
+.xfce4-panel widget grid button.flat.toggle
+{
+  min-width: 14px;
+  min-height: 12px;
+
+  color: #888888;
+  background-color: #222222;
+  border: 1px solid #333333;
+}
+/* Focused Workspace Buttons */
+.xfce4-panel widget grid button.flat.toggle:hover,
+.xfce4-panel widget grid button.flat.toggle:checked
+{
+  color: #ffffff;
+  background-color: #285777;
+  border-color: #4C7899;
+}
